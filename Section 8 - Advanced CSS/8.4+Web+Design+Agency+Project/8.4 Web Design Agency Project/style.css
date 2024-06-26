@@ -1,0 +1,146 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.main {
+  margin:auto;
+  flex: 1;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 50px;
+}
+
+h2{
+  
+  font-size: 2rem;
+  color: black;
+}
+
+.logo{
+  height: auto;
+  width: 150px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.tile-image {
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 75px;
+  height: 500px;
+  width: auto;
+}
+
+footer {
+  clear: both;
+  margin: 20px;
+  text-align: center;
+  color: midnightblue;
+}
+
+.section-one#first-half {
+  height: 15vh;
+  background-image: url(./assets/images/background.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: center;
+}
+
+.quote {
+  margin-top: 75px;
+  font-size: 18px;
+  text-align: center;
+}
+
+section{
+  padding: 50px 100px 50px 100px;
+}
+
+.section-one#second-half {
+  height: 20vh;
+  background-image: url(./assets/images/background.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: center;
+}
+
+.section-three {
+  height: 20vh;
+  margin-top: 60px;
+  background-image: url(./assets/images/background.jpg);
+  background-position-x: center;
+  background-size:cover;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.card{
+  display: inline-block;
+  font-size: 16px;
+  text-align: justify;
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* Website Responsiveness to Different Resolutions*/
+@media (max-width: 680px) {
+  .logo {
+    height: auto;
+    width: 75px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .section-one#first-half {
+    height:30vh;
+  }
+
+  .section-one#second-half {
+    height:40vh;
+  }
+
+  .section-two {
+    width: 400px;
+    display: inline;
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 400px;
+    height: auto;
+    display: inline;
+  }
+}
