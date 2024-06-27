@@ -106,13 +106,17 @@ section{
   .logo {
     height: auto;
     width: 75px;
-    display: block;
-    margin: auto;
+
     margin-top: 50px;
   }
 
   h1 {
     font-size: 2rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.5rem;
     text-align: center;
   }
 
@@ -126,21 +130,23 @@ section{
 
   .section-two {
     width: 400px;
-    display: inline;
+    display: block;
+    margin: auto;
     font-size: 14px;
     text-align: justify;
   }
 
   .card {
     width: 100%;
-    display: block;
     text-align: justify;
   }
 
   .card img {
+    display: block;
+    margin: auto;
     margin-bottom: 10px;
     width: 400px;
+    float: none;
     height: auto;
-    display: inline;
   }
 }
