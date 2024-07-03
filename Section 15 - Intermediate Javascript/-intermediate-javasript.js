@@ -148,3 +148,24 @@
 //     bottlesOfBeer--;
 //   }
 // }
+
+//* Fibonacci self-coded
+// function fibonacciGenerator(n) {
+//   //Do NOT change any of the code above 👆
+//   var output = [];
+//   var num = 1;
+//   if (n === 1) {
+//     return (output = [0]);
+//   } else if (n === 2) {
+//     return (output = [0, 1]);
+//   } else {
+//     output = [0, 1];
+//
+//     for (var i = 1; i < n - 1; i++) {
+//       var num = num + output[i - 1];
+//       output.push(num);
+//     }
+//     return output;
+//   }
+//   //Do NOT change any of the code below 👇
+// }
